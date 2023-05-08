@@ -1,0 +1,34 @@
+var myfullName;
+console.log(myfullName);
+myfullName = " Renuka Ghumare";
+console.log(myfullName);
+myfullName = " Renuka Sanjay Ghumare";
+console.log(myfullName);
+
+var myLove;
+myLove = "myLove";
+console.log(myLove);
+myLove = " i love only JS";
+console.log(myLove);
+
+var firstName;
+firstName = " Renuka";
+console.log(firstName);
+var lastName;
+lastName = "Ghumare";
+console.log(lastName);
+var age;
+age = "22";
+console.log(age);
+var address;
+address = " at post Pargaon Tal-Patoda, Dist-Beed.";
+console.log(address);
+var pinCode;
+pinCode = " 414204";
+console.log(pinCode);
+var gender;
+gender = " Female";
+console.log(gender);
+var isMarried;
+isMarried = "No";
+console.log(isMarried);
