@@ -28,3 +28,8 @@ console.log("Char at last index: ",charAtLastIndex);
 var charAtZeroIndex = string.charAt(0);
 var charAtLastIndex = string.charAt(string.length-1);
 console.log("Char at  first and last index: ",charAtZeroIndex,charAtLastIndex);
+
+
+
+
+
