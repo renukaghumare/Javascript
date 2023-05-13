@@ -1,10 +1,11 @@
-console.log("String Basic Assignment");
+
 
 function stringBasics(){
     console.log("My Dream Company is Mahagenco");
 }
 
 stringBasics();
+console.log("------------------------------")
 
 var hobby1="Playing Games";
 var hobby2="Cooking";
