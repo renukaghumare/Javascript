@@ -1,24 +1,29 @@
-console.log(" 1. The Square of length of word ");
 
-console.log("==============================================");
-
-
-function squareOfWordLength(string) {
+function squareOfWordLength(network) {
+    var string = network;
+    console.log(` *${string}`);
+    var stringlength = string.length;
+    console.log(` lenght of ${string}: ${stringlength}`);
+    var square = stringlength * stringlength;
+    console.log(` square of ${string} char length : ${square}`);
+  }
   
-}
-squareOfWordLength("Java Script");
-squareOfWordLength("Google Chrome");
-squareOfWordLength("Developer Smart");
-
-
-function Given a string(params) {
-    var string="I am Angular Developer";
-    var lengthstr;
-    var result = str.split ();
-    var totalwords=result.length;
-
-    
-}
-
-
-
+  squareOfWordLength(" JavaSript");
+  squareOfWordLength(" Google Chrome");
+  squareOfWordLength(" Developer Smart");
+  console.log(" -------------------------------------------------");
+  
+  function dev(params) {
+    var string = "I am Angular Developer";
+    console.log(`string : ${string}`);
+    var stringlength = string.length;
+    console.log(` String length: ${string} : ${stringlength}`);
+    var stringSplit = string.split(" ");
+    console.log(stringSplit);
+    console.log(  ` Total number words  available in that string:${stringSplit.length}`);
+    var division = stringlength / stringSplit.length;
+    console.log(` Division of string length and total number of words is: ${division}`);
+    var multiplication = stringlength * stringSplit.length;
+    console.log(` Multiplication of string length and total number of words is: ${multiplication}`);
+  }
+  dev();
